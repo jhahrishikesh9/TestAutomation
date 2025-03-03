@@ -17,7 +17,7 @@ public class login extends PO_Login{
 	 * = wait.until(ExpectedConditions.visibilityOfElementLocated(By by)); }
 	 */
 	public static void validateCorrectURL(WebDriver driver, String url) {
-		//this is a test push
+		//this is a test push test
 	}
 	public static void OpenLink(WebDriver driver) {
 		driver.findElement(By.xpath(signUpButton)).click();
