@@ -9,10 +9,11 @@ import io.cucumber.junit.Cucumber;
 	@RunWith(Cucumber.class)
 	@CucumberOptions(features="src/test/resources/Features", glue= {"RegressionTests"}, 
 	monochrome=true,
-	plugin= {"pretty", "junit:target/JSONReports/report.json",
-			"html:target/HTMLReports"},
-	tags="@Login")
+	plugin= {"pretty", 
+			"html:target/Cucumber/reports.html"},
+	tags="@TC01")
 	public class testRunner {
+		// Git token - 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
 		
 	}
 
